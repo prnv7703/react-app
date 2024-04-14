@@ -1,0 +1,94 @@
+body {
+  overflow: hidden;
+  font-family: Arial, sans-serif; /* Use a sans-serif font for better readability */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f0f0f0; /* Set a light background color */
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  padding: 20px;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px; /* Increase font size for better visibility */
+  color: #333; /* Set color to dark gray */
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+}
+
+.equation {
+  margin-right: 10px;
+  font-size: 36px; /* Increase font size for A, B, and the symbol */
+  color: #333; /* Set color to dark gray */
+}
+
+.form-container {
+  width: 150px; /* Set an initial width for the form container */
+}
+
+.answer-form {
+  margin: 0;
+  display: flex; /* Use flexbox to control the width and height */
+  align-items: center; /* Center align items vertically */
+  flex-shrink: 1; /* Allow the form to shrink to fit its content horizontally */
+  width: 100%; /* Set width to fill available space */
+}
+
+.answer-input {
+  padding: 10px;
+  font-size: 28px; /* Increase font size for the answer input field */
+  border: 2px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius */
+  height: 56px; /* Set height to match the equation components */
+}
+
+.equation,
+.answer-input {
+  font-size: 36px; /* Match the font size of the h1 tag */
+}
+
+.answer-input {
+  padding: 8px; /* Match the padding of the h1 tag */
+}
+
+.count {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  font-size: 24px; /* Increase font size for better visibility */
+  color: #333; /* Set color to dark gray */
+}
+
+.restart-btn {
+  font-size: 24px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 30px;
+  right: 70px;
+  background-color: #ccc; /* Set background color to gray */
+  border: none;
+  border-radius: 20px; /* Make the button rounded */
+  cursor: pointer;
+}
+
+.restart-btn:hover {
+  background-color: #aaa; /* Darken background color on hover */
+}
