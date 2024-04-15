@@ -46,6 +46,7 @@ body {
   color: #333;
   border: 2px solid #007bff;
   border-radius: 5px;
+  width: 40px;
   cursor: pointer;
 }
 
@@ -113,12 +114,14 @@ body {
   position: absolute;
   top: 30px;
   right: 70px;
-  background-color: #ccc; /* Set background color to gray */
-  border: none;
-  border-radius: 20px; /* Make the button rounded */
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #007bff;
+  border-radius: 5px; /* Make the button rounded */
   cursor: pointer;
 }
 
 .restart-btn:hover {
-  background-color: #aaa; /* Darken background color on hover */
+  background-color: #007bff;
+  color: #fff;
 }
