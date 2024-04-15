@@ -38,7 +38,10 @@ body {
   margin-right: 10px;
 }
 
-.time-control {
+.time-control1 {
+  position: absolute; /* Position the restart button relative to the container */
+  top: 10px; /* Adjust as needed */
+  left: 160px; /* Adjust as needed */
   margin-left: 10px;
   font-size: 18px;
   padding: 5px 10px;
@@ -50,7 +53,27 @@ body {
   cursor: pointer;
 }
 
-.time-control:hover {
+.time-control2 {
+  position: absolute; /* Position the restart button relative to the container */
+  top: 10px; /* Adjust as needed */
+  left: 205px; /* Adjust as needed */
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.time-control1:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.time-control2:hover {
   background-color: #007bff;
   color: #fff;
 }
@@ -97,7 +120,7 @@ body {
 .count {
   position: absolute;
   bottom: 50px;
-  right: 50px;
+  right: 80px;
   font-size: 24px; /* Increase font size for better visibility */
   color: #333; /* Set color to dark gray */
 }

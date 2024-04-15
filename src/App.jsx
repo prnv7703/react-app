@@ -162,8 +162,8 @@ function App() {
       <div className="container">
         <div className="top-left">
           <h1 className="timer">Time Left: {time}</h1>
-          <button className="time-control" onClick={handleMinusClick}>-</button>
-          <button className="time-control" onClick={handlePlusClick}>+</button>
+          <button className="time-control1" onClick={handleMinusClick}>-</button>
+          <button className="time-control2" onClick={handlePlusClick}>+</button>
         </div>
         <button className="restart-btn" onClick={restartApp}>Restart</button>
         <div className="middle-section">
