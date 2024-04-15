@@ -174,6 +174,7 @@ function App() {
             </h2>
             <form className="answer-form" onSubmit={handleSubmit}>
               <input
+                className='answer-input'
                 type="text"
                 value={defaultVal}
                 onChange={handleKeyDown}
